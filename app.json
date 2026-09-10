@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "nativewind-test",
-    "slug": "nativewind-test",
+    "name": "LineAssist",
+    "slug": "LineAssist",
     "version": "1.0.0",
     "orientation": "portrait",
     "scheme": "nativewindtest",
@@ -20,18 +20,6 @@
     },
     "plugins": [
       "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
-          "dark": {
-            "backgroundColor": "#000000"
-          }
-        }
-      ],
       "expo-sqlite",
       "expo-font",
       "expo-image",
